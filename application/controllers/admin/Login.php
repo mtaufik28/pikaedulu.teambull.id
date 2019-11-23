@@ -24,25 +24,45 @@ class Login extends CI_Controller{
             $user_nama=$xcadmin['pengguna_nama'];
             $this->session->set_userdata('idadmin',$idadmin);
             $this->session->set_userdata('nama',$user_nama);
-            redirect('admin/dashboard');
+            $url = 'admin/dashboard';
+            echo'
+            <script>
+            window.location.href = "'.base_url().'index.php?/'.$url.'";
+            </script>
+            ';
          }else{
              $this->session->set_userdata('akses','2');
              $idadmin=$xcadmin['pengguna_id'];
              $user_nama=$xcadmin['pengguna_nama'];
              $this->session->set_userdata('idadmin',$idadmin);
              $this->session->set_userdata('nama',$user_nama);
-             redirect('admin/dashboard');
+            $url = 'admin/dashboard';
+            echo'
+            <script>
+            window.location.href = "'.base_url().'index.php?/'.$url.'";
+            </script>
+            ';
          }
 
        }else{
          echo $this->session->set_flashdata('msg','<div class="alert alert-danger" role="alert"><button type="button" class="close" data-dismiss="alert"><span class="fa fa-close"></span></button> Username Atau Password Salah</div>');
-         redirect('admin/login');
+            $url = 'admin/login';
+            echo'
+            <script>
+            window.location.href = "'.base_url().'index.php?/'.$url.'";
+            </script>
+            ';
        }
 
     }
 
     function logout(){
         $this->session->sess_destroy();
-        redirect('admin/login');
+            $url = 'admin/login';
+            echo'
+            <script>
+            window.location.href = "'.base_url().'index.php?/'.$url.'";
+            </script>
+            ';
     }
 }

@@ -124,20 +124,7 @@
 </section>
 <!--//END HEADER -->
 <!--============================= ABOUT =============================-->
-<section class="clearfix about about-style2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-               <h2>Welcome</h2>
-               <p>Kami Menyambut baik terbitnya Website MSCHOOL yang baru , dengan harapan dipublikasinya website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
 
-            </div>
-            <div class="col-md-4">
-                <img src="<?php echo base_url().'theme/images/welcome.png'?>" class="img-fluid about-img" alt="#">
-            </div>
-        </div>
-    </div>
-</section>
 <!--//END ABOUT -->
 <!--============================= OUR COURSES =============================-->
 <section class="our_courses">

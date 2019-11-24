@@ -101,28 +101,36 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6">
                             <div class="contact-address">
-                                <h3>Lokasi</h3>
-                                <div class="contact-details">
-                                    <i class="fa fa-user" aria-hidden="true"></i>
-                                    <h6>Alamat</h6>
-                                    <p> Unisco university
-                                        <br> Albany, NY
-                                        <br> USA. 11001</p>
-                                    </div>
+                                <h3>Contact</h3>
                                     <br>
                                     <div class="contact-details">
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                         <h6>Email</h6>
-                                        <p>info@unisco.edu
-                                            <br> admin@unisco.edu
+                                        <p>mtaufikhanafi@teambull.id
+                                            <br> muh.taufik28@yahoo.com
                                         </p>
                                     </div>
                                     <br>
                                     <div class="contact-details">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <h6>Phone</h6>
-                                        <p>+91 555 668 986</p>
+                                        <p>+62 895 3711 29905</p>
                                     </div>
+                                    <br>
+                                    <div class="contact-details">
+                                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                        <h6>Whats App</h6>
+                                        <p>+62 895 3711 29905
+                                            <br>
+                                        <a href="https://api.whatsapp.com/send?phone=62895371129905&text=&source=&data=">Send Message</a></p>
+                                    </div>
+                                    <br>
+                                        <div class="contact-details">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <h6>Instagram</h6>
+                                        <p><a href="https://instagram.com/pikaedulu">Klik Here</p>
+                                    </div>
+                                    <br>                                    
                                 </div>
                             </div>
                         </div>

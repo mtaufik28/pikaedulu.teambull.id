@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'db_websekolah',
+	'hostname' => 'bayu.iixcp.rumahweb.com',
+	'username' => 'teab1957_root',
+	'password' => 'tintasenja28',
+	'database' => 'teab1957_db_websekolah',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
